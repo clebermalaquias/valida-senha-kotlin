@@ -12,7 +12,7 @@ Rodando o projeto
 Para rodar o projeto pode ser feito de duas formas:
 
 1 - Clonar o projeto e executar a classe App.kt
-2 - executar o jar com o comando:
+2 - executar o jar localizado na raiz do projeto, utilizando o comando:
     java -jar valida-senha-kotlin-0.0.1-SNAPSHOT.jar
 
 Acessando a api para teste
