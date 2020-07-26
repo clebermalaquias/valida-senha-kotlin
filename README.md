@@ -1,28 +1,33 @@
 # valida-senha-kotlin
-API de validação de senha utilizando a linguagem kotlin
+<b>API de validação de senha utilizando a linguagem kotlin</b>
 
-Tecnologias usadas
+<b>Tecnologias utilizadas</b>
+<ul>
+    <li>SpringBoot</li>
+    <li>kotlin</li>
+    <li>Regex</li>
+    <li>SpringBootTest</li>
+</ul>    
 
-SpringBoot
-kotlin
-Regex
-SpringBootTest
+<b>Para rodar o projeto pode ser feito de duas formas:</b>
 
-Rodando o projeto
-Para rodar o projeto pode ser feito de duas formas:
+<br />
+<ul>
+<li> Clonar o projeto e executar a classe App.kt</li>
+<li>executar o jar localizado na raiz do projeto, utilizando o comando:
+    java -jar valida-senha-kotlin-0.0.1-SNAPSHOT.jar</li>
+</ul>
+<br />
 
-1 - Clonar o projeto e executar a classe App.kt
-2 - executar o jar localizado na raiz do projeto, utilizando o comando:
-    java -jar valida-senha-kotlin-0.0.1-SNAPSHOT.jar
+<b>Acessando a api para teste</b>
 
-Acessando a api para teste
+<b>URL principal :</b> http://localhost:8080/validar/senha
+<br />
+<b>Parametro:</b> senha tipo String <b>(Ex:AbTp9!fok)</b>
 
-URL principal : http://localhost:8080/validar/senha
-Parametro: senha tipo String (Ex:AbTp9!fok)
-
-URl completa para teste
-http://localhost:8080/validar/senha?senha={suasenha}(Ex:AbTp9!fok)
+<b>URl completa para teste</b><br />
+http://localhost:8080/validar/senha?senha=suasenha
 
 
-Considerações:
+<b>Considerações:</b>
 Kotlin foi usado devido ao aprendizado e pratica da linguagem.
