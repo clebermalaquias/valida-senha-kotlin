@@ -14,7 +14,7 @@
 <br />
 <ul>
 <li> Clonar o projeto e executar a classe App.kt</li>
-<li>executar o jar localizado na raiz do projeto, utilizando o comando:
+<li>executar o jar localizado na raiz do projeto, utilizando o comando:<br />
     java -jar valida-senha-kotlin-0.0.1-SNAPSHOT.jar</li>
 </ul>
 <br />
